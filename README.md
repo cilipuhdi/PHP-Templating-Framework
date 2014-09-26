@@ -19,17 +19,17 @@ Enable mod_rewrite for Apache (a2enmod rewrite)
 
 Folder structure:
 -----------------
-
->	/var/www/
->			/assets/
->					/css
->					/img
->					/js
->			/templates/
->					  /header.htm
->					  /index.htm
->					  /footer.htm
->			/index.php
-
+<pre>
+/var/www/
+        /assets/
+               /css
+               /img
+               /js
+        /templates/
+                  /header.htm
+                  /index.htm
+                  /footer.htm
+        /index.php
+</pre>
 
 Use the document named default as reference for Apache configuration.
